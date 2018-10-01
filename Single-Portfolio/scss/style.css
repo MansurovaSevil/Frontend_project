@@ -1,0 +1,289 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+a {
+  text-decoration: none !important; }
+
+.custom-button {
+  min-width: inherit;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.3s ease 0s;
+  background: #0b60a9;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 10px 35px;
+  border: none;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 135px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  vertical-align: middle; }
+  .custom-button:hover {
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0px 2px 7px 0px rgba(162, 160, 160, 0.54); }
+
+#fast-contact ul li {
+  list-style-type: none; }
+  #fast-contact ul li .header-box-icon i {
+    font-size: 40px;
+    margin: 2px;
+    display: block;
+    color: #4c94d2;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 2px; }
+
+#main-nav .collapse {
+  margin-left: -43px; }
+#main-nav .collapse ul li i {
+  color: white; }
+#main-nav .social_nw {
+  margin-left: 125px; }
+#main-nav .navbar-collapse i {
+  display: inline-block;
+  height: 40px;
+  line-height: 1.7;
+  margin-right: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  overflow: hidden; }
+#main-nav .carousel-inner {
+  right: 15%; }
+#main-nav .carousel-item {
+  bottom: 28%;
+  height: auto;
+  left: 10%;
+  max-width: 100%;
+  padding: 0;
+  position: absolute;
+  transition: all 1s ease-in-out 0s;
+  width: 80%;
+  z-index: 999; }
+#main-nav .carousel-item::after {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 888;
+  background-color: #222;
+  opacity: 0.5; }
+
+#interested .col-lg-12 {
+  line-height: 1.75; }
+#interested .section-title {
+  position: relative;
+  font-size: 33px;
+  font-weight: 500; }
+#interested .section-subtitle {
+  font-size: 16px;
+  margin: 0 auto 50px;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 20px; }
+
+#main_footer {
+  margin-top: 80px;
+  background-color: #2e363a; }
+  #main_footer #footer_polovina {
+    overflow: hidden;
+    padding: 70px 0;
+    color: #ccc;
+    font-size: 16px;
+    position: relative;
+    z-index: 9;
+    background-attachment: fixed; }
+    #main_footer #footer_polovina .footer_img img {
+      width: 120px;
+      margin-bottom: 10px; }
+    #main_footer #footer_polovina .container {
+      width: 1230px;
+      margin: 0 auto;
+      padding-left: 25px;
+      padding-right: 25px;
+      max-width: 100%; }
+    #main_footer #footer_polovina .row {
+      margin-left: -25px;
+      margin-right: -25px; }
+    #main_footer #footer_polovina .footer-title {
+      color: #fff;
+      font-weight: 400;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      position: relative;
+      font-size: 22px; }
+    #main_footer #footer_polovina .footer-title:after {
+      display: block;
+      content: "";
+      height: 1px;
+      background: #ffffff;
+      width: 50px;
+      position: absolute;
+      bottom: -1px; }
+    #main_footer #footer_polovina .recent {
+      color: #ccc;
+      font-size: 16px;
+      line-height: 1.75; }
+    #main_footer #footer_polovina .recent a {
+      margin: 0;
+      font-weight: 500;
+      color: #fff;
+      line-height: 1.5;
+      font-size: 17px; }
+    #main_footer #footer_polovina .recent p {
+      margin-bottom: 5px;
+      color: #bbc0d2;
+      font-style: italic;
+      font-size: 13px; }
+    #main_footer #footer_polovina .footers ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    #main_footer #footer_polovina .footers ul li {
+      font-size: 15px;
+      padding: 0px 15px 5px 20px;
+      position: relative; }
+    #main_footer #footer_polovina .footers ul li::before {
+      color: #fff;
+      content: "\f105";
+      display: inline-block;
+      font-family: 'Font Awesome 5 Free';
+      font-size: 13px;
+      left: 3px;
+      position: absolute;
+      top: 2px;
+      font-weight: 900; }
+    #main_footer #footer_polovina .footers a {
+      color: #ddd;
+      text-decoration: inherit;
+      background-color: transparent; }
+    #main_footer #footer_polovina .footers .right {
+      float: right; }
+    #main_footer #footer_polovina .footer_img .img_galery {
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+      margin: 0;
+      padding: 5px;
+      float: left; }
+  #main_footer #links .container {
+    width: 1230px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 100%;
+    margin-bottom: 20px; }
+  #main_footer #links .links-navigation {
+    float: left;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.75; }
+  #main_footer #links .links-navigation ul {
+    margin: 0;
+    padding: 0; }
+  #main_footer #links .links-navigation li {
+    display: inline-block;
+    list-style: outside none none; }
+  #main_footer #links .links-navigation li a {
+    display: block;
+    margin-right: 15px;
+    text-transform: capitalize;
+    color: #ddd;
+    padding: 5px 0; }
+  #main_footer #links .links-navigation li a:hover {
+    color: #0b60a9; }
+  #main_footer .socialka {
+    float: right;
+    overflow: hidden;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.75; }
+    #main_footer .socialka .container {
+      width: 1230px;
+      margin: 0 auto;
+      max-width: 100%; }
+  #main_footer .tailpiece {
+    background-color: #25292f;
+    clear: both;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0; }
+    #main_footer .tailpiece .container {
+      width: 1230px;
+      margin: 0 auto;
+      padding-left: 25px;
+      padding-right: 25px;
+      max-width: 100%; }
+    #main_footer .tailpiece .copyright {
+      float: left; }
+    #main_footer .tailpiece .site-info {
+      float: right; }
+
+.ulcustom {
+  display: inline; }
+  .ulcustom .licustom {
+    display: inline; }
+
+#tailpiece {
+  background-color: #25292f; }
+
+.socialka ul {
+  margin: 0;
+  padding: 0; }
+
+.socialka li a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+.socialka li i {
+  border-radius: 100%;
+  border: 2px solid #cacaca;
+  display: inline-block;
+  height: 40px;
+  line-height: 1.7;
+  margin-right: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  overflow: hidden;
+  cursor: pointer; }
+  .socialka li i:hover {
+    background-color: #1111f5;
+    color: #fff; }
+
+#btn-scrollup a.scrollup,
+#btn-scrollup a.scrollup:visited {
+  background-color: #0b60a9;
+  bottom: 50px;
+  color: #ffffff;
+  float: right;
+  line-height: 1.2;
+  padding: 10px 15px;
+  position: fixed;
+  right: 32px;
+  text-align: center;
+  z-index: 999; }
+#btn-scrollup .scrollup i {
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
